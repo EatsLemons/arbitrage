@@ -11,7 +11,7 @@ import (
 )
 
 var opts struct {
-	Port int `long:"port" env:"MY_MOVIE_LIST_PORT" default:"8080" description:"port"`
+	Port int `long:"port" env:"ARBITRAGE_SERVICE_PORT" default:"8080" description:"port"`
 }
 
 func main() {
